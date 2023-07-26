@@ -1,0 +1,11 @@
+@import url(./css/header.css);
+@import url(./css/global.css);
+@import url(./css/conteudo.css);
+
+/*Cores*/
+
+@import url(./utlitarios/cores.css);
+
+/* Tipografias*/
+
+@import url(./utlitarios/Tipografias.css);

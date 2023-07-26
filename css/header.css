@@ -1,0 +1,35 @@
+.header-bg {
+  background-image: url(../img/restaurante.jpg);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+  align-content: center;
+}
+
+.header-bg {
+  display: grid;
+  justify-content: center;
+}
+
+.header-bg p {
+ display: grid;
+ justify-self: center;
+}
+
+@media (max-width:800px) {
+  .header-bg h2 {
+    font-size: 45px;
+  }
+  .header-bg p {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:600px) {
+  .header-bg h2 {
+    font-size: 35px;
+  }
+  .header-bg p {
+    font-size: 20px;
+  }
+}
