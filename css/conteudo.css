@@ -1,34 +1,36 @@
+.header-listas {
+  padding: 30px 30px;
+  background-color: var(--cor-5);
+}
 
 
-.header-list ul {
-  background-color: var(--cor-3);
+.header-listas a {
+  display: block;
+}
+
+.header-listas ul {
   display: flex;
-  gap: 60px;
-  padding: 10px 15px;
-
-}
-
-.header-option {
-  display: grid;
-  justify-content: center;
+  gap: 20px;
+  padding: 0 20px 20px 20px ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  overflow-x: auto;
   cursor: pointer;
+
+}
+
+.header-listas a:hover {
+ color: var(--cor-10);
 }
 
 
-.header-option a:hover {
-  color: var(--cor-7);
+.header-listas li {
+  min-width: 280px;
 }
 
-@media (max-width:800px) {
-  .header-list ul {
-     font-size: 15px;
-     gap: 30px;
-  }
-}
 
-@media (max-width:600px) {
-  .header-list ul {
-     font-size: 10px;
-     gap: 15px;
-  }
+.bicicletas-listas ul {
+  display: grid;
+  align-content: center;
 }
