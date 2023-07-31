@@ -39,7 +39,7 @@
     font-size: 20px;
   }
   .header-listas li {
-    min-width: 10px;
+    min-width: 190px;
   }
 }
 
@@ -48,7 +48,7 @@
     font-size: 15px;
   }
   .header-listas li {
-    min-width: 150px;
+    min-width: 130px;
   }
 }
 
