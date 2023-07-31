@@ -1,5 +1,5 @@
 .header-bg {
-  background-image: url(../img/restaurante.jpg);
+  background-image: linear-gradient(blue, red);
   padding-top: 120px;
   padding-bottom: 120px;
   display: grid;
