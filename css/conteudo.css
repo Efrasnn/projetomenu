@@ -54,11 +54,16 @@ border-radius: 4px;
     
   }
   .conteudo {
-    padding: 20px;
+    padding: 20px ;
+    padding-right: 60px ;
     align-content: center;
+    margin-top: 30px;
   }
   .Lanches-listas li {
     display:grid ;
     justify-content: center;
+  }
+  .Lanches-listas, h2 {
+    margin-bottom: 30px;
   }
 }
